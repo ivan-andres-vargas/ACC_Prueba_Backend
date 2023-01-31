@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'ACC_Prueba_Backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# COnección a la base de datos de Postgres
+# Conexión a la base de datos de Postgres
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
